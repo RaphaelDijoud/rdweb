@@ -16,26 +16,30 @@ body {
   background-color: #f8f9fa; /* Light background color */
   padding: 10px 0; /* Add some spacing */
   display: flex;
+  margin-bottom: 0.5em
 }
 
 /* Style all links */
 .navbar a {
   text-decoration: none; /* Remove underline */
-  color: #333; /* Dark text color */
+  /* color: #333; Dark text color */
+  color: inherit;
+  text-align: center;
   font-size: 18px;
-  padding: 10px 15px; /* Add spacing */
+  padding: 0.5em; /* Add spacing */
   display: inline-block; /* Ensure clickable area */
   flex: 1;
+  text-align: center;
 }
 
 /* Style the current/active link */
 .navbar a.current {
   font-weight: bold;
-  color: #007bff; /* Highlighted color */
+  color: #ff0000; /* Highlighted color */
 }
 
 /* Hover effect */
 .navbar a:hover {
-  color: #0056b3;
+  color: #ff0000;
   text-decoration: underline;
 }

@@ -27,7 +27,7 @@ body {
   color: inherit;
   text-align: center;
   font-size: 18px;
-  padding: 0.5em; /* Add spacing */
+  padding: 0.0em; /* Add spacing */
   display: inline-block; /* Ensure clickable area */
   flex: 1;
   text-align: center;

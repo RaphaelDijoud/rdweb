@@ -17,6 +17,7 @@ body {
   padding: 10px 0; /* Add some spacing */
   display: flex;
   margin-bottom: 0.5em;
+  border-bottom: 1px solid oklch(80% 3% 200);
 }
 
 /* Style all links */
@@ -35,7 +36,9 @@ body {
 /* Style the current/active link */
 .navbar a.current {
   font-weight: bold;
-  color: #ff0000; /* Highlighted color */
+  color: #000000; /* Highlighted color */
+  border-bottom: 0.4em solid oklch(80% 3% 200);
+  padding-bottom: 5px;
 }
 
 /* Hover effect */

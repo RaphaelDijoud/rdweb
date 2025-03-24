@@ -38,7 +38,7 @@ body {
   font-weight: bold;
   color: #000000; /* Highlighted color */
   border-bottom: 0.4em solid oklch(80% 3% 200);
-  padding-bottom: 0.1em;
+  padding-bottom: -0.4em;
 }
 
 /* Hover effect */

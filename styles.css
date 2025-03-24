@@ -5,6 +5,7 @@ body {
      width: 80%; /* Adjust width as needed */
      max-width: 800px; /* Optional: Limit maximum width */
      margin-inline: auto; /* Center horizontally */
+     padding: 10px;
      text-align: center; /* Optional: Center text inside the body */
     font: 100%/1.5 system-ui;
    }

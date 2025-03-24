@@ -15,6 +15,7 @@ body {
   text-align: center; /* Center the navigation links */
   background-color: #f8f9fa; /* Light background color */
   padding: 10px 0; /* Add some spacing */
+  display: flex;
 }
 
 /* Style all links */
@@ -24,6 +25,7 @@ body {
   font-size: 18px;
   padding: 10px 15px; /* Add spacing */
   display: inline-block; /* Ensure clickable area */
+  flex: 1;
 }
 
 /* Style the current/active link */

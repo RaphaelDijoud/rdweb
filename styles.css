@@ -9,4 +9,31 @@ body {
      text-align: center; /* Optional: Center text inside the body */
     font: 100%/1.5 system-ui;
    }
-   
+  
+   /* Style the navigation bar */
+.navbar {
+  text-align: center; /* Center the navigation links */
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 0; /* Add some spacing */
+}
+
+/* Style all links */
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Dark text color */
+  font-size: 18px;
+  padding: 10px 15px; /* Add spacing */
+  display: inline-block; /* Ensure clickable area */
+}
+
+/* Style the current/active link */
+.navbar a.current {
+  font-weight: bold;
+  color: #007bff; /* Highlighted color */
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
